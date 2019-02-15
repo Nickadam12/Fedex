@@ -7,9 +7,9 @@ class Home extends CI_Controller {
 		$this->load->model('Home_model');
 
     }
-	function custom_product_cart(){
+    function custom_product_cart(){
 		echo "cusotm Product goes here";
-	}
+  }
 	public function index()
 	{
 		//$data['testimonials'] = $this->Home_model->get_all_testimonial();
