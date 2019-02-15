@@ -4,10 +4,7 @@ class Home extends CI_Controller {
 	public function __construct()
     {
         parent::__construct();
-		$this->load->library('cart');
-		$this->load->model('cart_model');
 		$this->load->model('Home_model');
-		$this->session->keep_flashdata('message');
     }
 	public function index()
 	{
