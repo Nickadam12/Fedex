@@ -5,6 +5,7 @@ class Home extends CI_Controller {
     {
         parent::__construct();
 		$this->load->model('Home_model');
+		$this->load->Model('cart');
 
     }
      function custom_product_cart(){
